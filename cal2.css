@@ -1,0 +1,107 @@
+body{
+  background-color: #9cfdff;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+header {
+  background: #949494;
+  padding: 50px 0 60px;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  width:  120px;
+}
+
+nav {
+  position: absolute;
+  top: 40px;
+  right: 0;
+
+}
+
+nav li {
+  display: inline;
+  margin: 0 5px 0 15px;
+}
+nav a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main h1 {
+  margin: 20px;
+  text-align: center;
+  font-size: 43px;
+  
+}
+
+.box{
+  text-align: center;
+  background: #53cdcf;
+  padding: 20px;
+  width: 430px;
+  height: 320px;
+  margin: 10px auto;
+  box-shadow: 6px 6px 6px #369e94;
+  border: 1px solid #000000;
+}
+
+.box h2 {
+  font-size: 25px;
+  margin: 0 0 25px;
+}
+
+.campo {
+  padding: 10px 20px;
+  width: 70%;
+  display: block;
+  margin: 0 auto 18px ;
+}
+
+.box button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: 1px solid #1b6a6b;
+  background: #59b4ff;
+}
+
+.box button:hover {
+  transition: 300ms;
+  background: #035ca6;
+  color: #ffffff;
+}
+
+.resposta {
+  margin: 50px auto;
+}
+
+.resposta h3{
+  font-size: 50px;
+  text-align: center;
+}
+
+footer {
+  background: #4f4f4f;
+  margin: 260px 0 0;
+  padding: 50px;
+}
+
+footer p {
+  text-align: center;
+}

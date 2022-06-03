@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="cal2.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+        <script src="calc2.js"></script>
+		<meta charset="UTF-8">
+		<title>Calculadoras de investimentos</title>
+	</head>
+	<body>
+		 <header>
+            <div class="caixa">
+                <h1><img src="logo.jpg"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">💵 Acumulação</a></li>
+                        <li><a href="tempo.html">🕐 Tempo</a></li>
+                        <li><a href="acumulação.html">💰 Com renda inicial</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+        <main> 
+            <h1> Calculadora de Acumulação </h1>
+            <div class="box">
+                <h2>insira os valores abaixo</h2>
+                <input class= "campo" type="number" id= "din-inicial" placeholder= "Dinheiro guardado" >
+                <input class= "campo" type="number" id= "valor-aporte" placeholder=" Valor do aporte mensal" >
+                <input class= "campo" type="number" id= "taxa-selic" placeholder= " Taxa selic hoje">
+                <input class= "campo" type="number" id= "tempo-em-anos" placeholder= " Quantidade de anos">
+                <button class="btn-cal" type="submit" onclick="calcular()"> calcular </button>
+            </div>
+            <div class="resposta">
+                <h3 id= "reultado"> </h3>
+            </div>
+        </main>
+        <footer>
+            <p>&copy;Copyright calculado de investimentos João - 2022</p>
+        </footer>
+	</body>	
+
+</html>
