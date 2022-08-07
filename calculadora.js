@@ -25,7 +25,7 @@ function calcular(){
   console.log(rendido)
   console.log(total)
   let dinheiro = ( acumulado + total).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
-  const exibirResultado = document.getElementById("reultado");
+  const exibirResultado = document.getElementById("resultado");
   exibirResultado.innerHTML = `Ao final de ${tempo} anos você terá um total de : ${dinheiro}`;
   
 }
